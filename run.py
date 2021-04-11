@@ -20,6 +20,8 @@ try:
     mainpath=os.path.dirname(os.path.abspath(sys.argv[0]))
     path=mainpath+"/PDF/"
     savepath=mainpath+"/output/"
+    os.mkdir(path)
+    os.mkdir(savepath)
     a=[]
     val=0
     ent=os.listdir(path)
